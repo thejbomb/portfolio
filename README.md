@@ -8,7 +8,3 @@ Responsive portfolio site built using GatsbyJS
 - Flexbox & CSS Grid
 - CSS Modules & SCSS
 - ReactJS / GatsbyJS
-
-### Acknowledgements
-
-Hero photo by Alexander Rotker on Unsplash
