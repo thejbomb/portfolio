@@ -10,7 +10,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gatsby": "^2.13.3",
@@ -36,6 +37,7 @@
   },
   "repository": {
     "type": "git",
+    "homepage": "https://thejbomb.github.io/portfolio",
     "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
   "bugs": {

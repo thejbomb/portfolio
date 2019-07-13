@@ -5,7 +5,7 @@ import styles from "./footer.module.scss"
 const Footer = () => {
   return (
     <footer className={styles.container}>
-      <h1 className={styles.header}>CONTACT ME</h1>
+      <h1 className={styles.header}>CONTACT</h1>
       <a
         className={styles.emailButton}
         target="#"
@@ -33,14 +33,6 @@ const Footer = () => {
         </a>
       </div>
       <p className={styles.copyright}>Copyright © 2019 Jun Yu Lu</p>
-      <a
-        className={styles.footerLink}
-        target="#"
-        href="https://github.com/thejbomb"
-        rel="noopener noreferrer"
-      >
-        SOURCE
-      </a>
     </footer>
   )
 }
